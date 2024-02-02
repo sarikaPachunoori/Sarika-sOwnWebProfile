@@ -1,0 +1,82 @@
+/* Write your CSS code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3508.jpg');
+  background-size: cover;
+  padding: 30px;
+  border: 10px blueviolet;
+  border-style: double;
+}
+.bg-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 30px;
+}
+.frst-cont {
+  padding-top: 20px;
+  margin-top: 30px;
+  width: 50%;
+}
+.head {
+  color: #f279a1;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: cursive;
+  margin-top: 50px;
+}
+.name {
+  font-family: serif;
+  font-size: 75px;
+  font-style: oblique;
+  color: #f279a1;
+  padding-left: 50px;
+}
+.profile-pic {
+  width: 60vh;
+  height: 50vh;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.img {
+  width: 95%;
+  height: 110%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.proj-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.proj-heading {
+  font-family: 'bree serif';
+  font-size: 45px;
+  color: #1d3cdb;
+  font-style: italic;
+}
+.certifiction-main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid red;
+}
